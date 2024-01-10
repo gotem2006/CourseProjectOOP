@@ -1,0 +1,15 @@
+﻿<Window x:Class="CourseProjectOOP.AddProjectUserWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CourseProjectOOP"
+        mc:Ignorable="d"
+        Title="AddProjectUserWindow" Height="150" Width="300"
+        ResizeMode="NoResize">
+    <Grid>
+        <ComboBox Name="Users" HorizontalAlignment="Center" Margin="0,45,0,0" VerticalAlignment="Top" Width="150" Height="30"/>
+        <Button Content="Добавить пользователя" Click="AddNewUserButton" HorizontalAlignment="Center" Margin="0,80,0,0" VerticalAlignment="Top" Height="25" Width="150"/>
+
+    </Grid>
+</Window>
